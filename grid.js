@@ -6,7 +6,7 @@ export function randomGridPosition() {
     y: Math.floor(Math.random() * GRID_SIZE) + 1
   }
 }
-
+// javascript function
 export function outsideGrid(position) {
   return (
     position.x < 1 || position.x > GRID_SIZE ||
